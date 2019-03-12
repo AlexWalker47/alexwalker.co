@@ -63,7 +63,7 @@
 						<h3><a itemprop="email" href="mailto:<?php echo $bio['email'];?>"><?php echo $bio['email'];?></a></h3>
 						<h3 itemprop="telephone"><?php echo $this->issetor($bio['phone-number']);?></h3>
 						<h4 itemprop="address" class="address"><?php echo $this->issetor($bio['street-address']);?></h4>
-					</div>
+					</div></div>
 			
 		</section>
 
