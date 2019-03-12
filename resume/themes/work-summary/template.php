@@ -44,7 +44,7 @@
 						<?php
 							foreach ( $social[0] as $name=>$value ){
 								if( $value != '' ){
-									echo '<li><a href="'.$value.'" class="ion-social-'.$name.'"></a></li>';?></ul>
+									echo '<li><a href="'.$value.'" class="ion-social-'.$name.'"></a></li></ul>
 				</div>
 		</header>
 
