@@ -39,6 +39,13 @@ defaults:
     values:
       sitemap: false
 
+  # Glass Stats was renamed Readout (2026-11-22); /glass-stats/ holds redirect
+  # stubs only, so keep them out of the sitemap.
+  - scope:
+      path: "glass-stats"
+    values:
+      sitemap: false
+
   # Google Search Console verification file. Must stay served at its exact
   # URL or verification breaks; it just doesn't belong in the sitemap.
   - scope:

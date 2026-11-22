@@ -1,0 +1,20 @@
+<!-- Shared look for the Readout text pages (/readout/, /readout/privacy/, /readout/support/): one readable
+     column. display:block overrides the site's two-column section grid, which would otherwise
+     flow each paragraph into alternating columns. -->
+<style>
+    body.cinematic section.readout-doc .container {
+        display: block; max-width: 720px; width: 100%; box-sizing: border-box;
+        padding-left: 24px; padding-right: 24px;
+        overflow-wrap: break-word;
+    }
+    body.cinematic section.readout-doc h2 { text-align: center; margin-bottom: 24px; }
+    body.cinematic section.readout-doc h3 { text-align: left; padding: 0; margin: 32px 0 12px; }
+    body.cinematic section.readout-doc ul { padding-left: 20px; margin-bottom: 12px; }
+    body.cinematic section.readout-doc li { margin-bottom: 6px; }
+    body.cinematic section.readout-doc .readout-meta { text-align: center; opacity: 0.7; }
+    body.cinematic section.readout-doc .readout-links { text-align: center; }
+</style>
+<style>
+    body.cinematic section.readout-doc strong { font-weight: 600; color: #fff; }
+    body.cinematic section.readout-doc .readout-legal { text-align: center; font-size: 12px; opacity: 0.5; margin-top: 40px; }
+</style>

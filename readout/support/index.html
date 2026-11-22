@@ -1,0 +1,52 @@
+---
+layout: project
+title: Readout Support — Alex Walker
+og_title: Readout Support
+og_url: https://alexwalker.co/readout/support/
+description: "Support and FAQ for Readout by Alex Walker, the macOS menu bar system monitor designed to match Control Center."
+---
+{% include readout-style.html %}
+<section id="readout-support" class="readout-doc">
+    <div class="container">
+        <h2>Readout Support</h2>
+
+        <p>Readout is a menu bar system monitor designed to match macOS Control Center, so your CPU, GPU, memory,
+           network, disk and battery stats look like part of your Mac. It has no Dock icon. It lives in the menu bar.</p>
+
+        <h3>Frequently asked questions</h3>
+
+        <p><strong>Why does the process list show "System &amp; other users"?</strong><br>
+           Apps from the Mac App Store run in Apple's sandbox, which limits what an app can read about other processes.
+           Readout can list your own processes one by one. CPU used by macOS itself (for example WindowServer and
+           kernel_task) and by other users' processes is shown as one "System &amp; other users" row.</p>
+
+        <p><strong>Why do some helper processes show as separate rows?</strong><br>
+           The same sandbox limit applies. Grouping an app's helper processes under the app (for example Safari's
+           web content processes) needs information the sandbox does not allow, so the helpers appear as their own rows.
+           The memory list ranks apps by resident memory, so its numbers can differ a little from Activity Monitor.</p>
+
+        <p><strong>How do I open Settings?</strong><br>
+           Click any Readout item in the menu bar, then click the gear button in the panel. You can also open
+           Readout again from the Applications folder.</p>
+
+        <p><strong>How do I reset my settings?</strong><br>
+           Open Settings and choose Reset to Defaults. This puts the menu bar items, their order, refresh rate, glass
+           strength and launch at login back to how they were at install.</p>
+
+        <p><strong>How do I start Readout when I log in?</strong><br>
+           Open Settings and turn on Launch at login. It is off by default. If macOS asks for approval, allow
+           Readout in System Settings › General › Login Items.</p>
+
+        <p><strong>What does Readout need?</strong><br>
+           macOS 26 (Tahoe) or later, on an Apple silicon or Intel Mac.</p>
+
+        <p><strong>Does Readout collect my data?</strong><br>
+           No. See the <a href="/readout/privacy/">Privacy Policy</a>.</p>
+
+        <h3>Contact</h3>
+        <p>For help, bug reports or feedback, message Alex Walker on Instagram at
+           <a href="https://instagram.com/alex_walker47">@alex_walker47</a>.
+           Please include your macOS version and your Mac model.</p>
+        {% include readout-legal.html %}
+    </div>
+</section>
